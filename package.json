@@ -1,0 +1,19 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Haimanot1989/web-scraper.git"
+  },
+  "author": "Haimanot Tekie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Haimanot1989/web-scraper/issues"
+  },
+  "homepage": "https://github.com/Haimanot1989/web-scraper#readme"
+}
