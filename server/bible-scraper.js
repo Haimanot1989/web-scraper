@@ -70,7 +70,7 @@ let books = [
   "jude",
   "rev",
 ];
-
+//test
 var fullBookNames = [
   "",
   "1. Mosebok ",
