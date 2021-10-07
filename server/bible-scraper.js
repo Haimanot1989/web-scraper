@@ -1,6 +1,11 @@
 const puppeteer = require("puppeteer");
 
 const baseUrl = "http://les.norsk-bibel.no/index_reader.php?res=";
+/*books.reduce((map, book) => ({
+  ...map,
+  [books.indexOf(book)]: book,
+}), {})*/
+let booksWithIndex = {"0":"","1":"gen","2":"exod","3":"lev","4":"num","5":"deut","6":"josh","7":"judg","8":"ruth","9":"1sam","10":"2sam","11":"1kgs","12":"2kgs","13":"1chr","14":"2chr","15":"ezra","16":"neh","17":"esth","18":"job","19":"ps","20":"prov","21":"eccl","22":"song","23":"isa","24":"jer","25":"lam","26":"ezek","27":"dan","28":"hos","29":"joel","30":"amos","31":"obad","32":"jonah","33":"mic","34":"nah","35":"hab","36":"zeph","37":"hag","38":"zech","39":"mal","40":"matt","41":"mark","42":"luke","43":"john","44":"acts","45":"rom","46":"1cor","47":"2cor","48":"gal","49":"eph","50":"phil","51":"col","52":"1thess","53":"2thess","54":"1tim","55":"2tim","56":"titus","57":"phlm","58":"heb","59":"jas","60":"1pet","61":"2pet","62":"1john","63":"2john","64":"3john","65":"jude","66":"rev"}
 let books = [
   "",
   "gen",
